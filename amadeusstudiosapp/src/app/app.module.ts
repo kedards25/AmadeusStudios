@@ -2,18 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AmadeusstudiosComponent } from './amadeusstudios/amadeusstudios.component';
-import { appRouting } from './app-routing.module';
+import { AppRouting } from './app-routing.module';
+import { AmadeusStudiosModule } from './amadeusstudios/amadeusstudios.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AmadeusstudiosComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    appRouting
+    AppRouting,
+    AmadeusStudiosModule
   ],
   providers: [],
   bootstrap: [AppComponent]

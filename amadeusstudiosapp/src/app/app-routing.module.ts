@@ -6,4 +6,4 @@ const routes: Routes = [
   { path: '**', redirectTo: 'ams' }
 ];
 
-export const appRouting: ModuleWithProviders = RouterModule.forRoot(routes);
+export const AppRouting: ModuleWithProviders = RouterModule.forRoot(routes);

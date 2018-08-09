@@ -15,4 +15,4 @@ const routes: Routes = [
   { path: '**', redirectTo: 'ams' }
 ];
 
-export const amadeusstudiosRouting: ModuleWithProviders = RouterModule.forRoot(routes);
+export const AmadeusStudiosRouting: ModuleWithProviders = RouterModule.forRoot(routes);
