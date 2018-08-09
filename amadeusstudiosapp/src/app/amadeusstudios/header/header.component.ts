@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'ams-header',
@@ -10,7 +11,18 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('hel');
+    // $('body').loading();
+    $.notify({
+      // options
+      message: 'Hello World'
+    }, {
+        // settings
+        type: 'success',
+        placement: {
+          from: 'top',
+          align: 'center'
+        },
+      });
   }
 
 }
