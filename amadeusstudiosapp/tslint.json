@@ -116,6 +116,19 @@
       "check-separator",
       "check-type"
     ],
+    // set your prefix for whole project same need to be done in compononet ts.lint of app componentfile
+    "directive-selector": [
+      true,
+      "attribute",
+      "ams",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ams",
+      "kebab-case"
+    ],
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
