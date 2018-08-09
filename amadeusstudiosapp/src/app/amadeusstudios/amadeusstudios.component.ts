@@ -10,6 +10,7 @@ export class AmadeusstudiosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('sms');
   }
 
 }
